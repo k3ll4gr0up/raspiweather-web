@@ -114,6 +114,7 @@
 		if($doge == "1"){
 			print("<form action=\"index.php\" method=\"get\">
 			Doges: <input type=\"text\" name=\"days\" />
+			<input type=\"hidden\" value=\"1\" />
 			<input type=\"submit\" value=\"DOGE!\" />
 			</form>");
 		}
